@@ -1,0 +1,93 @@
+body{
+  background-color: #a9d7d1;
+  font-family: Arial, sans-serif; 
+}
+#title{
+  text-align: center;
+  font-family: Arial, sans-serif; 
+}
+#main{
+  width: 100%;
+  max-width: 900px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  padding: 15px;
+}
+#description{
+  text-align: center;
+  font-size: 1.2em;
+}
+#survey-form{
+  width: 100%;
+  //background-color: green;
+}
+.input {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  width: 40% ;
+  //background-color: blue;
+  padding: 17px;
+}
+.rightTab{
+  display: inline-block;
+  width: 48%;
+  //background-color: black;
+}
+#dropdown {
+    height: 32px;
+    width: 292px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+.radio{
+  background-color: blue;
+}
+.userRatings{
+  float: left;
+}
+.list{
+  list-style: none;
+  margin-left: -35px;
+}
+li{
+  line-height: 28px;
+}
+#comments {
+    height: 50px;
+    resize: vertical;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+#submit{
+  margin: auto;
+  background-color: #59ace0;
+  border: 0px;
+  padding: 5px 15px; 
+  font-size: 1.2em;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  
+}
+#button{
+  margin: auto;
+  width: 100%;
+  //background-color: blue;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+}
+p, h2, h3{
+  text-align: center;
+}
+#main {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 10px;
+}
+#title {
+  text-align: center;
+}
+#img-div {
+  margin: auto;
+  width: 100%;
+  max-width: 1303px;
+  background: white;
+}
+#image {
+  display:block;
+  max-width: 100%;
+  height:auto;
+  margin: auto;
+}
+#img-caption{
+  padding: 10px;
+  text-align: center;
+}
+#tribute-info{
+  max-width: 900px;
+  margin: auto;
+}
+li {
+  padding: 5px;
+}

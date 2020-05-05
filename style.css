@@ -5,7 +5,7 @@ html {
 	box-sizing: border-box;
 }
 body {
-	background-color: red;
+	
 	color: #fff;
 	font-family: Helvetica, sans-serif;
 	margin: 0;
@@ -80,12 +80,15 @@ section {
 	height: auto;
 	background-color: #45567d;
 	padding-top: var(--nav-height);
+	box-sizing: content-box;
+
 }
 #projects h1 {
 	padding: 20px;
 	font-size: 50px;
 	text-align: center;
 	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+
 }
 #contact {
 	background-color: #303841;
@@ -107,6 +110,7 @@ section {
 	padding-bottom: 50px;
 	text-align:center;
 
+
 }
 .grid a img {
 	width: 100%;
@@ -118,4 +122,20 @@ section {
 	line-height: 30px;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
+}
+
+@media screen and (max-width: 600px){
+	#contact h1,
+	#projects h1,
+	#welcome-section h1 {
+		font-size: 40px;
+	}
+	#contact p,
+	#welcome-section p{
+		font-size: 20px;
+	}
+	.grid a {
+		border-radius: 0;
+		box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+	}
 }
